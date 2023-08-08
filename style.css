@@ -1,0 +1,158 @@
+html{
+    background-color: #2D4356;
+}
+body{
+    margin: 0px;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 4rem;
+    margin: 20px 50px 20px 50px;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+/*For every Dice*/
+
+.dice{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: darkred;
+}
+
+/*Each Dice individually*/
+
+.diceOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diceTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.diceThree{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.diceFour{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.diceFive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.diceSix{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*dDots*/
+
+.dots{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/*Additional Grid and Flex manipulations on dot containers*/
+
+.start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.completeRow{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.paL10{
+    padding-left: 10px;
+}
+.paR10{
+    padding-right: 10px;
+}
+.ma50Top{
+    margin-top: 50px;
+}
+
+/*Button Styling*/
+
+button{
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    color: #2D4356;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+}
+.btn{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBox{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playZone{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 700px;
+}
+.displayNone{
+    display: none;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.nenHeader{
+    display: flex;
+    justify-content: space-evenly;
+}
+.orderLeft{
+    order: 0;
+}
+.orderRight{
+    order: 1;
+}
